@@ -5,7 +5,7 @@
     <author>Asmodeus</author>
     <description>This is the official CleftMUSH Graphical Mapper.</description>
     <id>dd07d6dbe73fe0bd02ddb62c</id>
-    <download>placeholder</download>
+    <download>https://raw.githubusercontent.com/AsmodeusBrooding/CleftUpdater/master/CleftMUSH-Mapper-Latest.zip</download>
     <installpath>1</installpath>
   </plugin>
 
