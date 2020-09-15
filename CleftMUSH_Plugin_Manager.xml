@@ -419,13 +419,6 @@ function printmsg(msg)
    ColourNote("cornflowerblue", "", msg)
 end
 
-function OnPluginBroadcast (msg, id, name, text)
-	require "gmcphelper"
-   if (id == '3e7dedbe37e44942dd46d264') then              -- GMCP Handler plugin
-		if text == "char.status" then
-		end
-   end
-end
 
 function OnPluginInstall()
    local installedStr = GetVariable("installedPlugins")
