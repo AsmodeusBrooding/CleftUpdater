@@ -201,16 +201,22 @@ function async_head_plugin(retval, page, status, headers, full_status, request_u
       end
       if thisPlugin == nil then return end
       thisPlugin.lastModified = headers["etag"] or "Unknown"
+	  require("tprint")
+	 -- tprint(headers)
    if pListNum == #pluginList then
       pListNum = 0
       for i = 1, #pluginList do
          thisPlugin = pluginList[i]
          thisPlugin.updated = false
+		 thisPlugin.lastModified = headers["etag"] or "Unknown"
          ColourTell("CornFlowerBlue", "", "[" .. i .. "] ", "LightSkyBlue", "", thisPlugin.name .. " ")
          if thisPlugin.installed then
             Hyperlink("cmu reload " .. i, "[Reload Plugin] ", "Reload Plugin #" .. pListNum, "LimeGreen", "black", 0, 1)
             for k, v in pairs(installedPlugins) do
                if thisPlugin.ids[1] == k then
+		--	   print(thisPlugin.ids[1])
+		--	    print(thisPlugin.lastModified)
+			  -- print(thisPlugin.lastModified)
                   if thisPlugin.lastModified == v then
                      thisPlugin.updated = true
                      ColourTell("LimeGreen", "", "*up-to-date*")
