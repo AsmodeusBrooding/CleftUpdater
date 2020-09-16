@@ -34,7 +34,7 @@
     <id>b555825a4a5700c35fa80780</id>
     <id>84164fd114202591729cb51b</id>
     <description>Displays all communications in a window. Tabs can be added to the window, and channels assigned to new tabs.</description>
-    <download>https://raw.githubusercontent.com/AsmodeusBrooding/CleftUpdater/master/CleftMUSH-Mapper-Latest.zip</download>
+    <download>https://raw.githubusercontent.com/AsmodeusBrooding/CleftUpdater/master/CleftMUSH-Chat-Latest.zip</download>
     <installpath>0</installpath>
   </plugin>
 
