@@ -14,7 +14,7 @@
     <author>Asmodeus and Elisius</author>
     <id>353de94ba6c42060d839e256</id>
     <description>Displays hp/mana/move gauges for you, your group, and your enemies.</description>
-    <download>https://raw.githubusercontent.com/AsmodeusBrooding/CleftUpdater/master/CleftMUSH-Mapper-Latest.zip</download>
+    <download>https://raw.githubusercontent.com/AsmodeusBrooding/CleftUpdater/master/CleftMUSH-Group-Latest.zip</download>
     <installpath>0</installpath>
   </plugin>
   
