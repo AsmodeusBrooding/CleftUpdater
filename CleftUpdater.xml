@@ -10,7 +10,7 @@
   </plugin>
 
   <plugin>
-    <name>CleftMUSH Group Monitor Window</name>
+    <name>CleftMUSH Group Monitor</name>
     <author>Asmodeus and Elisius</author>
     <id>353de94ba6c42060d839e256</id>
     <description>Displays hp/mana/move gauges for you, your group, and your enemies.</description>
