@@ -23,7 +23,7 @@
     <author>Asmodeus</author>
     <id>48062dcd6b934c590df53c68</id>
     <description>Displays hp/mana/move/exp/enemy/alignment gauges. The right-click menu offers major customization functionality.</description>
-    <download>https://raw.githubusercontent.com/AsmodeusBrooding/CleftUpdater/master/CleftMUSH-Mapper-Latest.zip</download>
+    <download>https://raw.githubusercontent.com/AsmodeusBrooding/CleftUpdater/master/CleftMUSH-Gauges-Latest.zip</download>
     <installpath>0</installpath>
   </plugin>
 
